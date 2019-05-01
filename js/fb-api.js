@@ -30,7 +30,8 @@ function statusChangeCallback(response) {
       cookie     : true,  // enable cookies to allow the server to access 
                           // the session
       xfbml      : true,  // parse social plugins on this page
-      version    : 'v3.3' // The Graph API version to use for the call
+      version    : 'v3.3', // The Graph API version to use for the call
+      redirect_uri : 'https://warbodi4.github.io/project.html';
     });
 
     
