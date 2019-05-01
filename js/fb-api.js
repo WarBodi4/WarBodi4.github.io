@@ -59,4 +59,10 @@ function statusChangeCallback(response) {
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
     });
+
+  }
+  
+  
+  if (testAPI()) {
+    window.location.href = "http://warbodi4.github.io/project.html";
   }
