@@ -8,7 +8,7 @@ function statusChangeCallback(response) {
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
       testAPI();
-      window.location = "https://warbodi4.github.io/project.html";
+      window.location.replace("https://warbodi4.github.io/project.html");
     } else {
       // The person is not logged into your app or we are unable to tell.
       document.getElementById('status').innerHTML = 'Please log ' +
