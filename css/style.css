@@ -16,6 +16,13 @@ header {
  	font-family: 'Work Sans', sans-serif;
  }
 
+
+ .login{
+ 	width: 350px;
+ 	height: 200px;
+ 	background: grey;
+ }
+
  #opeclose {
  	width: 120px;
  	height: 50px;
