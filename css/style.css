@@ -1,0 +1,66 @@
+html, body {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+ h3 {
+ 	line-height: 50px;
+ 	font-family: 'Work Sans', sans-serif;
+ }
+
+
+ .login{
+ 	width: 350px;
+ 	height: 200px;
+ 	background: grey;
+ }
+
+ #opeclose {
+ 	margin-left: 55px;
+ 	width: 220px;
+ 	height: 50px;
+ 	background: #f2f6f7;
+ 	border-radius: 30px;
+ 	border: 2px solid #b8bfc1;
+ }
+
+
+ #open-close {
+ 	margin-left: 55px;
+ 	width: 220px;
+ 	height: 50px;
+ 	background: #f2f6f7;
+ 	border-radius: 30px;
+ 	border: 2px solid #b8bfc1;
+ }
+
+#renderCanvas {
+    float: left;
+ width: 75%;
+ height: 100%;
+ touch-action: none;
+}
+
+
+.header {
+    height: 50px;
+    background: lightgrey;
+    border-bottom: 1px solid grey;
+ }
+
+.content {
+float:left;
+width: 337px;
+height: 100%;
+background-color: grey;
+}
+
+.container {
+width: 100%;
+height: 100%;
+}
+
+
+ 
