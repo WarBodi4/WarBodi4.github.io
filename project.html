@@ -8,7 +8,7 @@
 
         <!-- Babylon.js -->
      
-        
+        <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
         <script src="https://preview.babylonjs.com/babylon.js"></script>
         <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
 
@@ -19,17 +19,32 @@
 
     </head>
 <body>
-<style>
-    body {
-        background: url('css/wallpaper.jpg');
-        background-size: cover;
-    }
-</style>
 
-<div class="login" align="center" style="margin-top: 10%; margin-left: 500px;">
-    <header><h3>Вхід на сайт</h3></header> 
-<fb:login-button  size="large" scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+
+
+
+<div class="container">
+    <canvas id="renderCanvas"></canvas>
+    <div id="content">
+        
+    <header>
+        <h3 align="center" style="">Віртуальний холодильник</h3>
+    </header>
+
+    <div class="content">
+<h4>Морозильна камера</h4>
+<input id ="open-close" onclick="moroz()"  type="reset" value="Відкрити морозил">
+<h4>Холодильник</h4>
+<input id ="opeclose" onclick="holod()"  type="reset" value="Відкрити">
+<input id ="opeclose" onclick="holod()"  type="reset" value="Закрити">
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+
 </div>
 
+</div>
+</div>
+
+    <script src="js/scene.js"></script>
 </body>
 </html>
