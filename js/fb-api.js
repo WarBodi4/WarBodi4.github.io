@@ -8,6 +8,7 @@ function statusChangeCallback(response) {
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
       testAPI();
+        window.location.href = "http://warbodi4.github.io/project.html";
 
     } else {
       // The person is not logged into your app or we are unable to tell.
@@ -32,7 +33,7 @@ function statusChangeCallback(response) {
                           // the session
       xfbml      : true,  // parse social plugins on this page
       version    : 'v3.3', // The Graph API version to use for the call
-      redirect_uri : 'https://warbodi4.github.io/project.html';
+     
     });
 
     
@@ -59,7 +60,7 @@ function statusChangeCallback(response) {
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
-        window.location.replace("http://stackoverflow.com");
+        
     });
 
   }
